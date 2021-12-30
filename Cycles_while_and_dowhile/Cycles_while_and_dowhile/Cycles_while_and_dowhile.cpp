@@ -15,18 +15,31 @@
 using namespace std;
 
 int main(){
-    double R = 1530,
-        C = 0.81 * pow(10, -7),
-        L = 0.05,
-        T = 0;
+    setlocale(0, "RUS");
+
+    int choise = 0;
+
+    do {
+        double R = 1530,
+            C = 0.81 * pow(10, -7),
+            L = 0.05,
+            T = 0;       
+
+        while (L <= 0.5) {
+            T = (2000 * M_PI) / sqrt((1 / (L * C)) - pow(R / (2 * L), 2));
+            cout << "L = " << L << " \tT = " << T << endl;
+            if (L <= 0.09)
+                L += 0.01;
+            else
+                L += 0.1;
+        }
+        do {
+            cout << "Повторим?\n1. Запустить программу ещё раз\n2. Выход\n";
+            cin >> choise;
+            if (choise < 1 || choise>2)
+                cout << "Нет такого варианта";
+        } while (choise < 1 || choise>2);
+    } while (choise == 1); // Ну я хрен знает куда ещё тут цикл с постусловием засунуть
     
-    while (L <= 0.5) {
-        T = (2000 * M_PI) / sqrt((1 / (L * C)) - pow(R / (2 * L), 2));
-        cout << "L = " << L << " \tT = " << T << endl;
-        if (L <= 0.09)
-            L += 0.01;
-        else
-            L += 0.1;
-    }
 }
 
