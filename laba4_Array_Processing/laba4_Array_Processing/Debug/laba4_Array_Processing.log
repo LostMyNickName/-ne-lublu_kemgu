@@ -1,0 +1,3 @@
+﻿  laba4_Array_Processing.cpp
+C:\Users\LDB\Documents\GitHub\-ne-lublu_kemgu\laba4_Array_Processing\laba4_Array_Processing\laba4_Array_Processing.cpp(19,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba4_Array_Processing.vcxproj -> C:\Users\LDB\Documents\GitHub\-ne-lublu_kemgu\laba4_Array_Processing\Debug\laba4_Array_Processing.exe
