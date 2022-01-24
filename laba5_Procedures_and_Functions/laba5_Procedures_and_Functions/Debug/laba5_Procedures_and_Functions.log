@@ -1,0 +1,5 @@
+﻿  laba5_Procedures_and_Functions.cpp
+C:\Users\LDB\Documents\GitHub\-ne-lublu_kemgu\laba5_Procedures_and_Functions\laba5_Procedures_and_Functions\laba5_Procedures_and_Functions.cpp(22,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\LDB\Documents\GitHub\-ne-lublu_kemgu\laba5_Procedures_and_Functions\laba5_Procedures_and_Functions\laba5_Procedures_and_Functions.cpp(49,32): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\LDB\Documents\GitHub\-ne-lublu_kemgu\laba5_Procedures_and_Functions\laba5_Procedures_and_Functions\laba5_Procedures_and_Functions.cpp(57,32): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  laba5_Procedures_and_Functions.vcxproj -> C:\Users\LDB\Documents\GitHub\-ne-lublu_kemgu\laba5_Procedures_and_Functions\Debug\laba5_Procedures_and_Functions.exe
